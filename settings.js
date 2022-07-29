@@ -19,16 +19,16 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['91**********']
-global.premium = ['91**********']
-global.ownernomer = '91**********'
+global.owner = ['6283845409710']
+global.premium = ['6283845409710']
+global.ownernomer = '6283845409710'
 global.ownername = '𝙈𝙔 𝙊𝙒𝙉𝙀𝙍'
 global.botname = '𝙄𝙏𝙕 𝙈𝙀 𝘽𝙊𝙏𝙕 '
 global.footer = '© 𝗕𝗢𝗧 𝗠𝗢𝗗'
 global.ig = 'https://github.com/dominator454'
 global.region = 'Indonesia'
 global.sc = '𝐒𝐂𝐑𝐈𝐏𝐓 𝐍𝐎𝐓 𝐅𝐑𝐄𝐄 '
-global.myweb = 'https://youtube.com/channel/UCuYd8PWkU5QDCExj-ku8bGQ'
+global.myweb = 'https://github.com/Kianganz1'
 global.packname = 'ᓍ 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗕𝗢𝗧𝗭 ᓍ'
 global.author = '𝙢𝙤𝙙𝙙𝙚𝙧 𝘽𝙤𝙩𝙯 𝙄𝘿'
 global.sessionName = 'session'
