@@ -202,11 +202,11 @@ module.exports = GojoMdNx = async (GojoMdNx, m, chatUpdate, store) => {
 	
 	//group target \\
 const reply = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Gojo-Satoru`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg"}}}, { quoted: m})
+            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` ᴍᴏᴅᴢ ʙᴏᴛᴢ ✨`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "https://github.com/Kianganz1"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Gojo-Satoru`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg"}}}, { quoted: m})
+            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` ᴍᴏᴅᴢ ʙᴏᴛᴢ ✨`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "https://github.com/Kianganz1"}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -1769,7 +1769,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎀Menu🎀',
+                                    displayText: '𝙈𝙀𝙉𝙐',
                                     id: 'menu'
                                 }
                             }, {
@@ -1778,7 +1778,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 GOJO-SATORU HERE🎉 」\n\n${text}`
+                      let txt = `「 𝙈𝙊𝘿𝙕 𝘽𝙊𝙏𝙕🎉 」\n\n${text}`
                       GojoMdNx.send5ButImg(i, txt, GojoMdNx.user.name, global.thumb, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1803,7 +1803,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎀Menu🎀',
+                                    displayText: '𝙈𝙀𝙉𝙐',
                                     id: 'menu'
                                 }
                             }, {
@@ -1812,7 +1812,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 GOJO-SATORU HERE 🎉」\n\n${text}`
+                      let txt = `「 𝙈𝙊𝘿𝙕 𝘽𝙊𝙏𝙕 🎉」\n\n${text}`
                       GojoMdNx.send5ButImg(yoi, txt, GojoMdNx.user.name, global.thumb, btn)
 		}
 		reply('Broadcast Success')
@@ -3378,23 +3378,16 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/bot.jpg')},
                             hydratedFooterText: `┌─❖
-│「 Hi 👋 」
-└┬❖ 「 ${pushname} 」
-┌┤
-││✑  🐦🖐️!!
-│└───────────────┈ ⳹
-│ 「 BOT INFO 」
-│✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
-│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
-│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
-│✙ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
-└┬──────────────┈ ⳹
-   │✑  𝙋𝙇𝙀𝘼𝙎𝙀 𝙎𝙀𝙇𝙀𝘾𝙏 𝙏𝙃𝙀 𝘽𝙐𝙏𝙏𝙊𝙉 𝘽𝙀𝙇𝙊𝙒
-   └───────────────┈ ⳹`,
+_Hi 👋  ${pushname}_
+
+_𝗯𝗼𝘁 𝗶𝗻𝗳𝗼_
+
+ Speed : ${latensie.toFixed(4)} miliseconds
+ Runtime : ${runtime(process.uptime())}
+ Botz name : ${global.botname}
+ User total : ${Object.keys(global.db.data.users).length}
+
+𝙋𝙇𝙀𝘼𝙎𝙀 𝙎𝙀𝙇𝙀𝘾𝙏 𝙏𝙃𝙀 𝘽𝙐𝙏𝙏𝙊𝙉 𝘽𝙀𝙇𝙊𝙒`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: '𝙈𝙔 𝙒𝙀𝘽',
@@ -3433,23 +3426,16 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/bot.jpg')}, 
                             hydratedFooterText: `
-┌─❖
-│「 Hi 👋 」
-└┬❖ 「 ${pushname} 」
-┌┤
-│└───────────────┈ ⳹
-│ 「 BOT INFO 」
-│✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
-│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
-│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
-│✙ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
-└┬──────────────┈ ⳹
-   │✑  𝙋𝙇𝙀𝘼𝙎𝙀 𝙎𝙀𝙇𝙀𝘾𝙏 𝙏𝙃𝙀 𝘽𝙐𝙏𝙏𝙊𝙉 𝘽𝙀𝙇𝙊𝙒
-   └───────────────┈ ⳹`,
+_Hi 👋  ${pushname}_
+
+_𝗯𝗼𝘁 𝗶𝗻𝗳𝗼_
+
+ Speed : ${latensie.toFixed(4)} miliseconds
+ Runtime : ${runtime(process.uptime())}
+ Botz name : ${global.botname}
+ User total : ${Object.keys(global.db.data.users).length}
+
+𝙋𝙇𝙀𝘼𝙎𝙀 𝙎𝙀𝙇𝙀𝘾𝙏 𝙏𝙃𝙀 𝘽𝙐𝙏𝙏𝙊𝙉 𝘽𝙀𝙇𝙊𝙒`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: '𝙈𝙔 𝙒𝙀𝘽',
@@ -3481,7 +3467,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
-                    description: `ᴘʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ\n`,
+                    description: ` _ᴘʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ_ \n`,
                     buttonText: "Menu",
                     footerText: `${global.footer}`,
                     listType: "SINGLE_SELECT",
