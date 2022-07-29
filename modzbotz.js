@@ -3378,16 +3378,15 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/bot.jpg')},
                             hydratedFooterText: `┌─❖
-_Hi 👋  ${pushname}_
+𝗛𝗜𝗜  👋  ${pushname}
 
-_𝗯𝗼𝘁 𝗶𝗻𝗳𝗼_
+『𝗜𝗡𝗙𝗢 𝗠𝗢𝗗𝗭 𝗕𝗢𝗧𝗭』
 
  Speed : ${latensie.toFixed(4)} miliseconds
  Runtime : ${runtime(process.uptime())}
  Botz name : ${global.botname}
  User total : ${Object.keys(global.db.data.users).length}
-
-𝙋𝙇𝙀𝘼𝙎𝙀 𝙎𝙀𝙇𝙀𝘾𝙏 𝙏𝙃𝙀 𝘽𝙐𝙏𝙏𝙊𝙉 𝘽𝙀𝙇𝙊𝙒`,
+`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: '𝙈𝙔 𝙒𝙀𝘽',
@@ -3426,16 +3425,15 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/bot.jpg')}, 
                             hydratedFooterText: `
-_Hi 👋  ${pushname}_
+𝗛𝗜𝗜  👋  ${pushname}
 
-_𝗯𝗼𝘁 𝗶𝗻𝗳𝗼_
+『𝗜𝗡𝗙𝗢 𝗠𝗢𝗗𝗭 𝗕𝗢𝗧𝗭』
 
  Speed : ${latensie.toFixed(4)} miliseconds
  Runtime : ${runtime(process.uptime())}
  Botz name : ${global.botname}
  User total : ${Object.keys(global.db.data.users).length}
-
-𝙋𝙇𝙀𝘼𝙎𝙀 𝙎𝙀𝙇𝙀𝘾𝙏 𝙏𝙃𝙀 𝘽𝙐𝙏𝙏𝙊𝙉 𝘽𝙀𝙇𝙊𝙒`,
+`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: '𝙈𝙔 𝙒𝙀𝘽',
@@ -3467,7 +3465,7 @@ _𝗯𝗼𝘁 𝗶𝗻𝗳𝗼_
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
-                    description: ` _ᴘʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ_ \n`,
+                    description: ` Please select the menu below\n`,
                     buttonText: "Menu",
                     footerText: `${global.footer}`,
                     listType: "SINGLE_SELECT",
@@ -3598,7 +3596,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             break
 case 'allmenu': {
   	anu = `
-┏━「 *${botname}* 」━━⭓ 
+┏━「 ${botname} 」━━⭓ 
 ┃╔══「 MAIN 」
 ┃╠ ${prefix}alive
 ┃╠ ${prefix}script
