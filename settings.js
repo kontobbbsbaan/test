@@ -22,29 +22,29 @@ global.APIKeys = {
 global.owner = ['91**********']
 global.premium = ['91**********']
 global.ownernomer = '91**********'
-global.ownername = '𝑺𝑶𝑼𝑳 𝑫𝑶𝑴𝑰𝑵𝑨𝑻𝑶𝑹'
-global.botname = '𝑫𝑶𝑴𝑰𝑵𝑨𝑻𝑶𝑻 𝑺𝑬𝑹 𝑩𝑶𝑻'
-global.footer = '©sᴇʀᴅᴏᴍɪɴᴀᴛᴏʀ'
+global.ownername = '𝙈𝙔 𝙊𝙒𝙉𝙀𝙍'
+global.botname = '𝙄𝙏𝙕 𝙈𝙀 𝘽𝙊𝙏𝙕 '
+global.footer = '© 𝗕𝗢𝗧 𝗠𝗢𝗗'
 global.ig = 'https://github.com/dominator454'
-global.region = 'India, South India, Kerala'
-global.sc = 'https://github.com/dominator454/Gojo-Satoru'
+global.region = 'Indonesia'
+global.sc = '𝐒𝐂𝐑𝐈𝐏𝐓 𝐍𝐎𝐓 𝐅𝐑𝐄𝐄 '
 global.myweb = 'https://youtube.com/channel/UCuYd8PWkU5QDCExj-ku8bGQ'
-global.packname = '𝑰𝑻𝒁 𝑴𝑬 𝑺𝑶𝑼𝑳 𝑫𝑶𝑴𝑰𝑵𝑨𝑻𝑶𝑻'
-global.author = '𝑰𝑻𝒁 𝑴𝑬 𝑺𝑶𝑼𝑳 𝑫𝑶𝑴𝑰𝑵𝑨𝑻𝑶𝑹'
+global.packname = 'ᓍ 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗕𝗢𝗧𝗭 ᓍ'
+global.author = '𝙢𝙤𝙙𝙙𝙚𝙧 𝘽𝙤𝙩𝙯 𝙄𝘿'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner!',
-    group: 'Feature Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This Feature Is Only For Bot',
-    wait: 'Wait A minute...',
-    error: 'Error! Maybe Api Key Is Expired🤔!',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
+    success: '𝐃𝐎𝐍𝐄 ✓',
+    admin: '𝐓𝐇𝐈𝐒 𝐅𝐄𝐀𝐓𝐔𝐑𝐄 𝐈𝐒 𝐎𝐍𝐋𝐘 𝐅𝐎𝐑 𝐀𝐃𝐌𝐈𝐍!',
+    botAdmin: '𝐁𝐎𝐓 𝐌𝐔𝐒𝐓 𝐁𝐄 𝐀𝐃𝐌𝐈𝐍 𝐅𝐈𝐑𝐒𝐓!',
+    owner: '𝐓𝐇𝐈𝐒 𝐅𝐄𝐀𝐓𝐔𝐑𝐄 𝐈𝐒 𝐎𝐍𝐋𝐘 𝐅𝐎𝐑 𝐎𝐖𝐍𝐄𝐑!',
+    group: '𝐅𝐄𝐀𝐓𝐔𝐑𝐄 𝐔𝐒𝐄𝐃 𝐎𝐍𝐋𝐘 𝐅𝐎𝐑 𝐆𝐑𝐎𝐔𝐏𝐒!',
+    private: '𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒 𝐔𝐒𝐄𝐃 𝐎𝐍𝐋𝐘 𝐅𝐎𝐑 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐂𝐇𝐀𝐓!',
+    bot: '𝐓𝐇𝐈𝐒 𝐅𝐄𝐀𝐓𝐔𝐑𝐄 𝐈𝐒 𝐎𝐍𝐋𝐘 𝐅𝐎𝐑 𝐁𝐎𝐓',
+    wait: '𝐋𝐎𝐀𝐃𝐈𝐍𝐆...',
+    error: '𝐄𝐑𝐑𝐎𝐑🤔!',
+    endLimit: '𝐘𝐎𝐔𝐑 𝐃𝐀𝐈𝐋𝐘 𝐋𝐈𝐌𝐈𝐓 𝐇𝐀𝐒 𝐄𝐗𝐏𝐈𝐑𝐄𝐃, 𝐓𝐇𝐄 𝐋𝐈𝐌𝐈𝐓 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐑𝐄𝐒𝐄𝐓 𝐄𝐕𝐄𝐑𝐘 𝟏𝟐 𝐇𝐎𝐔𝐑𝐒',
 }
     global.limitawal = {
     premium: "Infinity",
@@ -59,7 +59,7 @@ global.mess = {
    umpanawal: 5,
    potionawal: 1
 }
-global.thumb = fs.readFileSync('./GojoMedia/gojo.jpg')
+global.thumb = fs.readFileSync('./GojoMedia/bot.jpg')
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
