@@ -3397,7 +3397,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
    └───────────────┈ ⳹`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '𝙈𝙮 𝙬𝙚𝙗',
+                                    displayText: '𝙈𝙔 𝙒𝙀𝘽',
                                     url: `${myweb}`
                                 }
                             }, {
@@ -3481,7 +3481,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
-                    description: `Please Choose The Menu\n\n`,
+                    description: `ᴘʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ\n`,
                     buttonText: "Menu",
                     footerText: `${global.footer}`,
                     listType: "SINGLE_SELECT",
@@ -3603,11 +3603,11 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c15f725add0381fb69c4b.jpg' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down🥲 , I know you are happy but me 🥲💔\n` }, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://avatars.githubusercontent.com/u/92542385?v=4.jpg' }, caption: `*Hi Bro ${m.pushName}*\n𝘿𝙊𝙒𝙉!!!!!! 𝙀𝙍𝙍𝙊𝙍 𝙏𝙃𝙀 𝙄𝙎 𝙁𝙄𝙏𝙐𝙍\n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
-                reply(`GitHub : \n Dont Forget To Give Star\n\nWeb : ${myweb}\nDont Forget To Watch Tutorial`)
+                reply(`𝙃𝙈𝙈𝙈𝙈.....(^_^♪)`)
             }
             break
 case 'allmenu': {
@@ -3838,7 +3838,7 @@ case 'allmenu': {
 ┃╠${prefix}masasubur (indo)
 ┃╠${prefix}zodiak (indo)
 ┃╠${prefix}shio (indo)
-┃╚═══════✍︎DOMINATOR
+┃╚═══════✍︎
 ┗━「 *Created By ${ownername}*  𖠌」━⭓`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -3883,7 +3883,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠ ${prefix}donate
 ┃╠ ${prefix}report [bug]
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube 📍","url": `${myweb}`}},{"urlButton": {"displayText": "𝙈𝙊𝘿𝙕 𝘽𝙊𝙏𝙕 ✘","url": `${sc}`}},{"quickReplyButton": {"displayText": "𝘿𝙊𝙉𝘼𝙎𝙄","id": 'donate'}},{"quickReplyButton": {"displayText": "𝙊𝙒𝙉𝙀𝙍","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝙈𝙔 𝙒𝙀𝘽","url": `${myweb}`}},{"urlButton": {"displayText": "𝙈𝙊𝘿𝙕 𝘽𝙊𝙏𝙕 ✘","url": `${sc}`}},{"quickReplyButton": {"displayText": "𝘿𝙊𝙉𝘼𝙎𝙄","id": 'donate'}},{"quickReplyButton": {"displayText": "𝙊𝙒𝙉𝙀𝙍","id": 'owner'}}] )
 break
 
 case 'grupmenu': case 'groupmenu':
@@ -4249,10 +4249,17 @@ break
 case 'thanksto': case 'tqto': case 'tqtt':
 var unicorn = await getBuffer(picak+'Developer')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-Thanks to Me ( DOMINATOR)
-DGXeon (For helping me to deploy qr in replit and answered my every doubts regard this project)
-DGXeon ( 45% Credits goes to him ,in this script)
-And Again Me (King DOMINATOR 🎉) 🐦 Who Helped Assemble This Sexy Script !!!`,unicorn, [{"urlButton": {"displayText": "𝙈𝙔 𝙒𝙀𝘽","url": `${myweb}`}},{"urlButton": {"displayText": "𝙈𝙊𝘿𝙕 𝘽𝙊𝙏𝙕 ✘","url": `${sc}`}},{"quickReplyButton": {"displayText": "𝘿𝙊𝙉𝘼𝙎𝙄","id": 'donate'}},{"quickReplyButton": {"displayText": "𝙊𝙒𝙉𝙀𝙍","id": 'owner'}}] )
+𝗧𝗛𝗔𝗡𝗞𝗦 𝗧𝗢 🙂
+
+>PENYEMANGAT
+>KIANGANZ1
+>WILDAN
+>TEGAR45
+>VEGA IRVAN 
+>ELANK MANDALA
+>DIKA SAPUTRA
+
+`,unicorn, [{"urlButton": {"displayText": "𝙈𝙔 𝙒𝙀𝘽","url": `${myweb}`}},{"urlButton": {"displayText": "𝙈𝙊𝘿𝙕 𝘽𝙊𝙏𝙕 ✘","url": `${sc}`}},{"quickReplyButton": {"displayText": "𝘿𝙊𝙉𝘼𝙎𝙄","id": 'donate'}},{"quickReplyButton": {"displayText": "𝙊𝙒𝙉𝙀𝙍","id": 'owner'}}] )
 break
             default:
                 if (budy.startsWith('=>')) {
