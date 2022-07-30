@@ -3476,7 +3476,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "Main Menu",
-										"description": "",
+										
 										"rowId": `${prefix}mainmenu`
 									}
 								]
@@ -3486,97 +3486,72 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "All Menu",
-										"description": "",
+										
 										"rowId": `${prefix}allmenu`
 									},
 									{
 										"title": "Owner Menu",
-										"description": "",
+										
 										"rowId": `${prefix}ownermenu`
 										},
 									{
 										"title": "Group Menu",
-										"description": "",
 										"rowId": `${prefix}groupmenu`
 										},
 									{
 										"title": "Rpg Menu",
-										"description": "",
 										"rowId": `${prefix}rpgmenu`
 									},
 									{
 										"title": "Download Menu",
-										"description": "",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
 										"title": "Search Menu",
-										"description": "",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
 											"title": "Random Menu",
-										"description": "",
 										"rowId": `${prefix}randommenu`
 										},
 										{
 											"title": "Random Anime Menu",
-										"description": "",
 										"rowId": `${prefix}randomanimemenu`
 										},
 										{
 											"title": "Fun Menu",
-										"description": "",
 										"rowId": `${prefix}funmenu`
 										},
 										{
 											"title": "Convert Menu",
-										"description": "",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
-											"title": "Database Menu",
-										"description": "",
+											"title": "Database Menu", 
 										"rowId": `${prefix}databasemenu`
 										},
 										{
 											"title": "Voice Changer Menu",
-										"description": "",
 										"rowId": `${prefix}voicechangermenu`
 										},
 										{
 											"title": "TXT-to-IMG Menu",
-										"description": "",
 										"rowId": `${prefix}textpromenu`
 										},
 										{
 											"title": "Islamic Menu",
-										"description": "",
 										"rowId": `${prefix}islamicmenu`
 										},
 										{
 											"title": "Horoscope Menu",
-										"description": "",
 										"rowId": `${prefix}horoscopemenu`
-										}
-								]
-							},
-							{
-								"title": " ",
-								"rows": [
-									{
+										}, 
+									   {
 										"title": "Anonymous Chat Menu",
-										"description": "",
 										"rowId": `${prefix}anonymouschatmenu`
-									}
-								]
-							},
-							{
-								"title": " ",
-								"rows": [
-									{
+									   }, 
+									  {
 										"title": "Thanks To",
-										"description": "",
 										"rowId": `${prefix}tqtt`
 									}
 								]
@@ -3593,7 +3568,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
             case 'sc': case 'script': {
-                reply(`𝙃𝙈𝙈𝙈𝙈.....`)
+                reply(`Beli di https://wa.me/message/R23F6S3OPNM4A1 Harga cuma 10k`)
             }
             break
 case 'allmenu': {
