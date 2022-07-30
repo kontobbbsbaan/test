@@ -3375,7 +3375,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
-                            livelocationMessage: {
+                            locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/bot.jpg')},
                             hydratedFooterText: `
 𝗛𝗜𝗜 👋  ${pushname} DENGAN BOT DISINI
@@ -3430,7 +3430,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
-                            livelocationMessage: {
+                            locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/bot.jpg')}, 
                             hydratedFooterText: `
 𝗛𝗜𝗜 👋  ${pushname} DENGAN BOT DISINI
@@ -3808,7 +3808,7 @@ case 'allmenu': {
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
-                            livelocationMessage: {
+                            locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/bot.jpg')},
                             hydratedFooterText: `${pushname}`,
                             hydratedButtons: [{
