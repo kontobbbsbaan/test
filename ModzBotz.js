@@ -202,11 +202,11 @@ module.exports = ModzBotz = async (ModzBotz, m, chatUpdate, store) => {
 	
 	//group target \\
 const reply = (teks) => {
-            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `@Kianganz1`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "https://saweria.co/Kianganz"}}}, { quoted: m})
+            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `mðÐz ßð†z  ву ƙιαɳ 🐦`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "https://saweria.co/Kianganz"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `@Kianganz1`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "https://saweria.co/Kianganz"}}}, { quoted: m})
+            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `mðÐz ßð†z  ву ƙιαɳ 🐦`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "https://saweria.co/Kianganz"}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -888,11 +888,11 @@ if (q.includes('--help')) return reply(examkosong)
  kurangDarah(m.sender, 10)
  }
  break
-	    case 'is now afk': {
+	    case 'afk': {
                 let user = global.db.data.users[m.sender]
                 user.afkTime = + new Date
                 user.afkReason = text
-                reply(`${m.pushName} Afk${text ? ': ' + text : ''}`)
+                reply(`${m.pushName} Is Now Afk${text ? ': ' + text : ''}`)
             }
             break	
         case 'ttc': case 'ttt': case 'tictactoe': {
@@ -3393,11 +3393,12 @@ SIAP MEMBANTU KAPANPUN DAN DIMANA PUN🐦
 Free add ke grub kamu tapi izin ke owner aku dulu
 
 
-https://chat.whatsapp.com/LKmbdt3kuu23VmzRZYyUVF\n\n`,
+Runtime : ${runtime(process.uptime())}
+\n\n`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '𝙈𝙔 𝙒𝙀𝘽',
-                                    url: `${myweb}`
+                                    displayText: '𝙈𝙔 𝙂𝘾',
+                                    url: `${ig}`
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3447,11 +3448,12 @@ SIAP MEMBANTU KAPANPUN DAN DIMANA PUN🐦
 Free add ke grub kamu tapi izin ke owner aku dulu
 
 
-https://chat.whatsapp.com/LKmbdt3kuu23VmzRZYyUVF\n\n`,
+Runtime : ${runtime(process.uptime())}
+\n\n`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '𝙈𝙔 𝙒𝙀𝘽',
-                                    url: `${myweb}`
+                                    displayText: '𝙈𝙔 𝙂𝘾',
+                                    url: `${ig}`
                                 }
                             }, {
                                 quickReplyButton: {
