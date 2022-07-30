@@ -202,11 +202,11 @@ module.exports = ModzBotz = async (ModzBotz, m, chatUpdate, store) => {
 	
 	//group target \\
 const reply = (teks) => {
-            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `MODZ BOT BY KIAN`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "https://github.com/Kianganz1"}}}, { quoted: m})
+            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `MODZ BOTZ BY KIAN`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "https://wa.me/p/8081359468604726/6283845409710"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `MODZ BOT BY KIAN`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "https://github.com/Kianganz1"}}}, { quoted: m})
+            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `MODZ BOTZ BY KIAN`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "https://wa.me/p/8081359468604726/6283845409710"}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -4018,7 +4018,7 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 ┃╠${prefix}animequote (indo)
 ┃╠${prefix}couplepp
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝙈𝙔 𝙒𝙀𝘽","url": `${myweb}`}},{"urlButton": {"displayText": "𝙒𝘼 𝙊𝙒𝙉??𝙍","url": `${sc}`}},{"quickReplyButton": {"displayText": "𝘿𝙊𝙉𝘼𝙎𝙄","id": 'donate'}},{"quickReplyButton": {"displayText": "𝙊𝙒𝙉𝙀𝙍","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝙈𝙔 𝙒𝙀𝘽","url": `${myweb}`}},{"urlButton": {"displayText": "𝙒𝘼 𝙊𝙒????𝙍","url": `${sc}`}},{"quickReplyButton": {"displayText": "𝘿𝙊𝙉𝘼𝙎𝙄","id": 'donate'}},{"quickReplyButton": {"displayText": "𝙊𝙒𝙉𝙀𝙍","id": 'owner'}}] )
 break
 case 'randomanimemenu':
 var unicorn = await getBuffer(picak+'Random Anime Menu')
