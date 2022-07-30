@@ -3472,55 +3472,75 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     footerText: `${global.footer}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
+								"title": "𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨 𝗠𝗢𝗗𝗭 𝗕𝗢𝗧𝗭 🗣️ ",
+								"rows": [
+									{
+										"title": "Main Menu〽️",
+										"rowId": `${prefix}mainmenu`
+									}
+								]
+							},
+							{
 								"title": " ",
 								"rows": [
 									{
-										"title": "Main Menu",
-										"rowId": `${prefix}mainmenu`
-	                                    }, 
 										"title": "All Menu📚",
 										"rowId": `${prefix}allmenu`
-									    },
-										"title": "Owner Menu🔖",
+									},
+									{
+										"title": "Owner Menu🔮",
 										"rowId": `${prefix}ownermenu`
 										},
+									{
 										"title": "Group Menu🎀",
 										"rowId": `${prefix}groupmenu`
 										},
-										"title": "Rpg Menu🎭",
+									{
+										"title": "Rpg Menu🥀",
 										"rowId": `${prefix}rpgmenu`
-									    },
-										"title": "Download Menu📥",
+									},
+									{
+										"title": "Download Menu💥",
 										"rowId": `${prefix}downloadmenu`
-									    },
+									},
+									{
 										"title": "Search Menu🧐",
 										"rowId": `${prefix}searchmenu`
-									    },
-											"title": "Random Menu😉",
+									},
+									{
+											"title": "Random Menu🎋",
 										"rowId": `${prefix}randommenu`
 										},
-											"title": "Random Anime Menu♨️",
+										{
+											"title": "Random Anime Menu🌹",
 										"rowId": `${prefix}randomanimemenu`
-									    }, 
-											"title": "Fun Menu🔅",
+										},
+										{
+											"title": "Fun Menu🍃",
 										"rowId": `${prefix}funmenu`
 										},
-											"title": "Convert Menu〽️",
+										{
+											"title": "Convert Menu🌸",
 										"rowId": `${prefix}convertmenu`
 										},
-											"title": "Database Menu🚬", 
+										{
+											"title": "Database Menu🌷", 
 										"rowId": `${prefix}databasemenu`
 										},
-											"title": "Voice Changer Menu⚙️",
+										{
+											"title": "Voice Changer Menu🌱",
 										"rowId": `${prefix}voicechangermenu`
-							            }, 
-											"title": "TXT-to-IMG Menu🥀",
+										},
+										{
+											"title": "TXT-to-IMG Menu🌾",
 										"rowId": `${prefix}textpromenu`
 										},
-											"title": "Horoscope Menu🤔",
+										{
+											"title": "Horoscope Menu💐",
 										"rowId": `${prefix}horoscopemenu`
 									   }, 
-										"title": "Thanks To😇",
+									  {
+										"title": "Thanks To🔊",
 										"rowId": `${prefix}tqtt`
 									}
 								]
@@ -3533,11 +3553,11 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'ping': case 'sewabot': case 'sewa': {
-                ModzBotz.sendMessage(m.chat, { image: { url: 'https://avatars.githubusercontent.com/u/92542385?v=4.jpg' }, caption: `*Hi Bro ${m.pushName}*\n 𝗘𝗥𝗥𝗢𝗥 !!\n` }, { quoted: m })
+                ModzBotz.sendMessage(m.chat, { image: { url: 'https://avatars.githubusercontent.com/u/92542385?v=4.jpg' }, caption: `*Hi Bro ${m.pushName}*\n 𝗘𝗥𝗥𝗢𝗥!!\n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
-                reply(`https://github.com/Kianganz1`)
+                reply(`Lagi nyari SC yah ≧﹏≦ .nih https://github.com/Kianganz1\n cari aja di sana Yah`)
             }
             break
 case 'allmenu': {
@@ -3735,6 +3755,8 @@ case 'allmenu': {
 ┃╠${prefix}robot [reply aud]
 ┃╠${prefix}slow [reply aud]
 ┃╠${prefix}squirrel [reply aud]
+┃╠══✪「 ISLAMIC 」
+┃╠${prefix}juzamma
 ┃╠══✪「 HOROSCOPE 」
 ┃╠${prefix}nomorhoki (indo)
 ┃╠${prefix}artimimpi (indo)
