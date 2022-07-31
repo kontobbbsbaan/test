@@ -202,11 +202,11 @@ module.exports = ModzBotz = async (ModzBotz, m, chatUpdate, store) => {
 	
 	//group target \\
 const reply = (teks) => {
-            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Hai ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": ""}}}, { quoted: m})
+            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `𝗛𝗔𝗟𝗟𝗢👋 ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "ᴍᴏᴅᴢ ʙᴏᴛᴢ ʙʏ ᴋɪᴀɴ"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Hai ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": ""}}}, { quoted: m})
+            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `𝗛𝗔𝗟𝗟𝗢👋 ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "ᴍᴏᴅᴢ ʙᴏᴛᴢ ʙʏ ᴋɪᴀɴ"}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -3378,27 +3378,17 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/bot.jpg')},
                             hydratedFooterText: `
-𝗛𝗜𝗜 👋  ${pushname}
-
-𝗱𝗲𝗻𝗴𝗮𝗻 𝗺𝗼𝗱𝘇 𝗯𝗼𝘁𝘇 𝗱𝗶𝘀𝗶𝗻𝗶 🤓
-𝘀𝗶𝗮𝗽 𝗺𝗲𝗺𝗯𝗮𝗻𝘁𝘂 𝗸𝗮𝗽𝗮𝗻 𝗽𝘂𝗻 𝗱𝗮𝗻 𝗱𝗶𝗺𝗮𝗻𝗮 𝗽𝘂𝗻
-
-𝗝𝗮𝗻𝗴𝗮𝗻 𝗱𝗶 𝘀𝗽𝗮𝗺 🐦
-𝗮𝗽𝗮 𝗴𝗮𝗸 𝘀𝘂𝗸𝗮 𝗯𝗲𝗿𝘁𝘂𝗺𝗯𝘂𝗸 𝗸𝗶𝘁𝗮 🐦
-
-𝗯𝗼𝘁 𝗶𝗻𝗶 𝗺𝗮𝘀𝗶𝗵 𝗱𝗮𝗹𝗮𝗺 𝗽𝗲𝗻𝗴𝗲𝗺𝗯𝗮𝗻𝗴𝗮𝗻\n𝗺𝗮𝗮𝗳 𝗸𝗮𝗹𝗼 𝗳𝗶𝘁𝘂𝗿𝗻𝘆𝗮 𝘀𝗲𝗱𝗶𝗸𝗶𝘁🐦
-
-
-
-𝗜𝗡𝗙𝗢
-➥NO TLPN/VC BOT
-➥SPAM BOT
-➥KASIH DELAY 3 AGAR BOT TIDAK DELAY
-➥KALO BOT DELAY/LAG KARNA DI SPAM
-➥TLPN/VC BOT AKAN DI BLOCK PERMANEN
-
-
-Runtime : ${runtime(process.uptime())}
+𝗛𝗜𝗜 👋  ${pushname}\n
+╔═══『𝗕𝗼𝘁 𝗜𝗻𝗳𝗼』
+╠•⪼Speed : ${latensie.toFixed(4)} miliseconds
+╠•⪼Runtime : ${runtime(process.uptime())}
+╠•⪼Bot Namd : ${global.botname}
+╠•⪼Owner Name : ${global.ownername}
+╠•⪼Owner Number : ${global.owner}
+╠•⪼Host Name : ${os.hostname()}
+╠•⪼Platfrom : ${os.platform()}
+╠•⪼User Total : ${Object.keys(global.db.data.users).length}
+╚══════════
 \n\n`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3438,27 +3428,17 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/bot.jpg')}, 
                             hydratedFooterText: `
-𝗛𝗜𝗜 👋  ${pushname}
-
-𝗱𝗲𝗻𝗴𝗮𝗻 𝗺𝗼𝗱𝘇 𝗯𝗼𝘁𝘇 𝗱𝗶𝘀𝗶𝗻𝗶 🤓
-𝘀𝗶𝗮𝗽 𝗺𝗲𝗺𝗯𝗮𝗻𝘁𝘂 𝗸𝗮𝗽𝗮𝗻 𝗽𝘂𝗻 𝗱𝗮𝗻 𝗱𝗶𝗺𝗮𝗻𝗮 𝗽𝘂𝗻
-
-𝗝𝗮𝗻𝗴𝗮𝗻 𝗱𝗶 𝘀𝗽𝗮𝗺 🐦
-𝗮𝗽𝗮 𝗴𝗮𝗸 𝘀𝘂𝗸𝗮 𝗯𝗲𝗿𝘁𝘂𝗺𝗯𝘂𝗸 𝗸𝗶𝘁𝗮 🐦
-
-𝗯𝗼𝘁 𝗶𝗻𝗶 𝗺𝗮𝘀𝗶𝗵 𝗱𝗮𝗹𝗮𝗺 𝗽𝗲𝗻𝗴𝗲𝗺𝗯𝗮𝗻𝗴𝗮𝗻\n𝗺𝗮𝗮𝗳 𝗸𝗮𝗹𝗼 𝗳𝗶𝘁𝘂𝗿𝗻𝘆𝗮 𝘀𝗲𝗱𝗶𝗸𝗶𝘁🐦
-
-
-
-𝗜𝗡𝗙𝗢
-➥NO TLPN/VC BOT
-➥SPAM BOT
-➥KASIH DELAY 3 AGAR BOT TIDAK DELAY
-➥KALO BOT DELAY/LAG KARNA DI SPAM
-➥TLPN/VC BOT AKAN DI BLOCK PERMANEN
-
-
-Runtime : ${runtime(process.uptime())}
+𝗛𝗜𝗜 👋  ${pushname}\n
+╔═══『𝗕𝗼𝘁 𝗜𝗻𝗳𝗼』
+╠•⪼Speed : ${latensie.toFixed(4)} miliseconds
+╠•⪼Runtime : ${runtime(process.uptime())}
+╠•⪼Bot Namd : ${global.botname}
+╠•⪼Owner Name : ${global.ownername}
+╠•⪼Owner Number : ${global.owner}
+╠•⪼Host Name : ${os.hostname()}
+╠•⪼Platfrom : ${os.platform()}
+╠•⪼User Total : ${Object.keys(global.db.data.users).length}
+╚══════════
 \n\n`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3496,7 +3476,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     footerText: `${global.footer}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": " PLEASE SELECT",
+								"title": "𝗣𝗜𝗟𝗜𝗛 𝗕𝗔𝗡𝗛 ",
 								"rows": [
 									{
 										"title": "Main Menu",
@@ -3572,11 +3552,11 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'ping': case 'sewabot': case 'sewa': {
-                ModzBotz.sendMessage(m.chat, { image: { url: 'https://avatars.githubusercontent.com/u/92542385?v=4.jpg' }, caption: `*Hi Bro ${m.pushName}*\n 𝗘𝗥𝗥𝗢𝗥!!\n` }, { quoted: m })
+                ModzBotz.sendMessage(m.chat, { image: { url: 'https://avatars.githubusercontent.com/u/92542385?v=4.jpg' }, caption: `𝗘𝗥𝗥𝗢𝗥!!\n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
-                reply(` 𝙉𝙜𝙖𝙥𝙖𝙞𝙣 𝙤𝙢 𝙅𝙖𝙣𝙜𝙖𝙣 𝙤𝙢 ( ͡°з ͡°)`)
+                reply(` https://github.com/Kianganz1`)
             }
             break
 case 'allmenu': {
@@ -4220,13 +4200,9 @@ var unicorn = await getBuffer(picak+'Developer')
 await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 𝗧𝗛𝗔𝗡𝗞𝗦 𝗧𝗢 🙂
 
->PENYEMANGAT
->KIANGANZ1
->WILDAN
->TEGAR45
->VEGA IRVAN 
->ELANK MANDALA
->DIKA SAPUTRA
+➥Kianganz1
+「https://github.com/Kianganz1」
+
 
 `,unicorn, [{"urlButton": {"displayText": "𝙈𝙔 𝙒𝙀𝘽","url": `${myweb}`}},{"urlButton": {"displayText": "𝙒𝘼 𝙊𝙒𝙉𝙀𝙍","url": `${sc}`}},{"quickReplyButton": {"displayText": "𝙋𝙄𝙉𝙂","id": 'ping'}},{"quickReplyButton": {"displayText": "𝙊𝙒𝙉𝙀𝙍","id": 'owner'}}] )
 break
