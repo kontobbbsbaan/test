@@ -202,11 +202,11 @@ module.exports = ModzBotz = async (ModzBotz, m, chatUpdate, store) => {
 	
 	//group target \\
 const reply = (teks) => {
-            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `mðÐz ßð†z  ву ƙιαɳ 🐦`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "https://saweria.co/Kianganz"}}}, { quoted: m})
+            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Hai ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": ""}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `mðÐz ßð†z  ву ƙιαɳ 🐦`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "https://saweria.co/Kianganz"}}}, { quoted: m})
+            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Hai ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": ""}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -3378,19 +3378,24 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/bot.jpg')},
                             hydratedFooterText: `
-𝗛𝗜𝗜 👋  ${pushname} DENGAN BOT DISINI
+𝗛𝗜𝗜 👋  ${pushname}
 
-SIAP MEMBANTU KAPANPUN DAN DIMANA PUN🐦
+𝗱𝗲𝗻𝗴𝗮𝗻 𝗺𝗼𝗱𝘇 𝗯𝗼𝘁𝘇 𝗱𝗶𝘀𝗶𝗻𝗶 🤓
+𝘀𝗶𝗮𝗽 𝗺𝗲𝗺𝗯𝗮𝗻𝘁𝘂 𝗸𝗮𝗽𝗮𝗻 𝗽𝘂𝗻 𝗱𝗮𝗻 𝗱𝗶𝗺𝗮𝗻𝗮 𝗽𝘂𝗻
 
-𝗣𝗘𝗥𝗔𝗧𝗨𝗥𝗔𝗡 🌸
+𝗝𝗮𝗻𝗴𝗮𝗻 𝗱𝗶 𝘀𝗽𝗮𝗺 🐦
+𝗮𝗽𝗮 𝗴𝗮𝗸 𝘀𝘂𝗸𝗮 𝗯𝗲𝗿𝘁𝘂𝗺𝗯𝘂𝗸 𝗸𝗶𝘁𝗮 🐦
 
-ɴᴏ ᴛʟᴘɴ ʙᴏᴛ
-ɴᴏ sᴘᴀᴍ ʙᴏᴛ
-ɴᴏ sᴇɴᴅ ᴠɪʀᴛᴇx ᴋᴇ ʙᴏᴛ
-ᴀᴘᴀ ɢᴀᴋ ᴛᴇʀɪᴍᴀ ᴀᴋᴜ ʙʟᴏᴄᴋ ɴᴏ ᴍᴜ 🐦
+𝗯𝗼𝘁 𝗶𝗻𝗶 𝗺𝗮𝘀𝗶𝗵 𝗱𝗮𝗹𝗮𝗺 𝗽𝗲𝗻𝗴𝗲𝗺𝗯𝗮𝗻𝗴𝗮𝗻\n𝗺𝗮𝗮𝗳 𝗸𝗮𝗹𝗼 𝗳𝗶𝘁𝘂𝗿𝗻𝘆𝗮 𝘀𝗲𝗱𝗶𝗸𝗶𝘁🐦
 
 
-Free add ke grub kamu tapi izin ke owner aku dulu
+
+𝗜𝗡𝗙𝗢
+➥NO TLPN/VC BOT
+➥SPAM BOT
+➥KASIH DELAY 3 AGAR BOT TIDAK DELAY
+➥KALO BOT DELAY/LAG KARNA DI SPAM
+➥TLPN/VC BOT AKAN DI BLOCK PERMANEN
 
 
 Runtime : ${runtime(process.uptime())}
@@ -3433,19 +3438,24 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/bot.jpg')}, 
                             hydratedFooterText: `
-𝗛𝗜𝗜 👋  ${pushname} DENGAN BOT DISINI
+𝗛𝗜𝗜 👋  ${pushname}
 
-SIAP MEMBANTU KAPANPUN DAN DIMANA PUN🐦
+𝗱𝗲𝗻𝗴𝗮𝗻 𝗺𝗼𝗱𝘇 𝗯𝗼𝘁𝘇 𝗱𝗶𝘀𝗶𝗻𝗶 🤓
+𝘀𝗶𝗮𝗽 𝗺𝗲𝗺𝗯𝗮𝗻𝘁𝘂 𝗸𝗮𝗽𝗮𝗻 𝗽𝘂𝗻 𝗱𝗮𝗻 𝗱𝗶𝗺𝗮𝗻𝗮 𝗽𝘂𝗻
 
-𝗣𝗘𝗥𝗔𝗧𝗨𝗥𝗔𝗡 🌸
+𝗝𝗮𝗻𝗴𝗮𝗻 𝗱𝗶 𝘀𝗽𝗮𝗺 🐦
+𝗮𝗽𝗮 𝗴𝗮𝗸 𝘀𝘂𝗸𝗮 𝗯𝗲𝗿𝘁𝘂𝗺𝗯𝘂𝗸 𝗸𝗶𝘁𝗮 🐦
 
-ɴᴏ ᴛʟᴘɴ ʙᴏᴛ
-ɴᴏ sᴘᴀᴍ ʙᴏᴛ
-ɴᴏ sᴇɴᴅ ᴠɪʀᴛᴇx ᴋᴇ ʙᴏᴛ
-ᴀᴘᴀ ɢᴀᴋ ᴛᴇʀɪᴍᴀ ᴀᴋᴜ ʙʟᴏᴄᴋ ɴᴏ ᴍᴜ 🐦
+𝗯𝗼𝘁 𝗶𝗻𝗶 𝗺𝗮𝘀𝗶𝗵 𝗱𝗮𝗹𝗮𝗺 𝗽𝗲𝗻𝗴𝗲𝗺𝗯𝗮𝗻𝗴𝗮𝗻\n𝗺𝗮𝗮𝗳 𝗸𝗮𝗹𝗼 𝗳𝗶𝘁𝘂𝗿𝗻𝘆𝗮 𝘀𝗲𝗱𝗶𝗸𝗶𝘁🐦
 
 
-Free add ke grub kamu tapi izin ke owner aku dulu
+
+𝗜𝗡𝗙𝗢
+➥NO TLPN/VC BOT
+➥SPAM BOT
+➥KASIH DELAY 3 AGAR BOT TIDAK DELAY
+➥KALO BOT DELAY/LAG KARNA DI SPAM
+➥TLPN/VC BOT AKAN DI BLOCK PERMANEN
 
 
 Runtime : ${runtime(process.uptime())}
@@ -3481,15 +3491,15 @@ Runtime : ${runtime(process.uptime())}
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
-                    description: ` _ᴘʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ_ \n`,
+                    description: ` Please select the menu below \n`,
                     buttonText: "Menu",
                     footerText: `${global.footer}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨 𝗠𝗢𝗗𝗭 𝗕𝗢𝗧𝗭 🗣️ ",
+								"title": "𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨 𝗠𝗢𝗗𝗭 𝗕𝗢𝗧𝗭  ",
 								"rows": [
 									{
-										"title": "Main Menu〽️",
+										"title": "Main Menu",
 										"rowId": `${prefix}mainmenu`
 									}
 								]
@@ -3498,63 +3508,63 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": " ",
 								"rows": [
 									{
-										"title": "All Menu📚",
+										"title": "All Menu",
 										"rowId": `${prefix}allmenu`
 									},
 									{
-										"title": "Owner Menu🔮",
+										"title": "Owner Menu",
 										"rowId": `${prefix}ownermenu`
 										},
 									{
-										"title": "Group Menu🎀",
+										"title": "Group Menu",
 										"rowId": `${prefix}groupmenu`
 										},
 									{
-										"title": "Rpg Menu🥀",
+										"title": "Rpg Menu",
 										"rowId": `${prefix}rpgmenu`
 									},
 									{
-										"title": "Download Menu💥",
+										"title": "Download Menu",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
-										"title": "Search Menu🧐",
+										"title": "Search Menu",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
-											"title": "Random Menu🎋",
+											"title": "Random Menu",
 										"rowId": `${prefix}randommenu`
 										},
 										{
-											"title": "Random Anime Menu🌹",
+											"title": "Random Anime Menu",
 										"rowId": `${prefix}randomanimemenu`
 										},
 										{
-											"title": "Fun Menu🍃",
+											"title": "Fun Menu",
 										"rowId": `${prefix}funmenu`
 										},
 										{
-											"title": "Convert Menu🌸",
+											"title": "Convert Menu",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
-											"title": "Database Menu🌷", 
+											"title": "Database Menu", 
 										"rowId": `${prefix}databasemenu`
 										},
 										{
-											"title": "Voice Changer Menu🌱",
+											"title": "Voice Changer Menu",
 										"rowId": `${prefix}voicechangermenu`
 										},
 										{
-											"title": "TXT-to-IMG Menu🌾",
+											"title": "TXT-to-IMG Menu",
 										"rowId": `${prefix}textpromenu`
 										},
 										{
-											"title": "Horoscope Menu💐",
+											"title": "Horoscope Menu",
 										"rowId": `${prefix}horoscopemenu`
 									   }, 
 									  {
-										"title": "Thanks To🔊",
+										"title": "Thanks To",
 										"rowId": `${prefix}tqtt`
 									}
 								]
@@ -3571,7 +3581,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
             case 'sc': case 'script': {
-                reply(`Lagi nyari SC yah ≧﹏≦ .nih https://github.com/Kianganz1\n cari aja di sana Yah`)
+                reply(` 𝙉𝙜𝙖𝙥𝙖𝙞𝙣 𝙤𝙢 𝙅𝙖𝙣𝙜𝙖𝙣 𝙤𝙢 ( ͡°з ͡°)`)
             }
             break
 case 'allmenu': {
