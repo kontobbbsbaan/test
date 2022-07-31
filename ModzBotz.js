@@ -3496,17 +3496,12 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     footerText: `${global.footer}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨 𝗠𝗢𝗗𝗭 𝗕𝗢𝗧𝗭  ",
+								"title": " PLEASE SELECT",
 								"rows": [
 									{
 										"title": "Main Menu",
 										"rowId": `${prefix}mainmenu`
-									}
-								]
-							},
-							{
-								"title": " ",
-								"rows": [
+									}, 
 									{
 										"title": "All Menu",
 										"rowId": `${prefix}allmenu`
