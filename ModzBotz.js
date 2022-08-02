@@ -1,3 +1,4 @@
+
 require('./settings')
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
 const fs = require('fs')
@@ -202,11 +203,11 @@ module.exports = ModzBotz = async (ModzBotz, m, chatUpdate, store) => {
 	
 	//group target \\
 const reply = (teks) => {
-            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `𝗛𝗔𝗟𝗟𝗢👋 ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "ᴍᴏᴅᴢ ʙᴏᴛᴢ ʙʏ ᴋɪᴀɴ"}}}, { quoted: m})
+            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `MODZ BOTZ BY KIAN`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": ""}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `𝗛𝗔𝗟𝗟𝗢👋 ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "ᴍᴏᴅᴢ ʙᴏᴛᴢ ʙʏ ᴋɪᴀɴ"}}}, { quoted: m})
+            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `MODZ BOTZ BY KIAN`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "ᴍᴏᴅᴢ ʙᴏᴛᴢ ʙʏ ᴋɪᴀɴ"}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -1766,11 +1767,6 @@ break
                                 urlButton: {
                                     displayText: 'my web',
                                     url: `${myweb}`
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: '𝙈𝙀𝙉𝙐',
-                                    id: 'menu'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3467,7 +3463,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     footerText: `${global.footer}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "⪼𝚂𝙴𝙻𝙴𝙲𝚃 𝚃𝙷𝙸𝚂 𝙻𝙸𝚂𝚃 𝙼𝙴𝙽𝚄⪻",
+								"title": "LIST MENU MODZ BOTZ ",
 								"rows": [
 									{
 										"title": "Main Menu",
