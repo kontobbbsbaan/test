@@ -3420,7 +3420,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 ╔═══『𝗕𝗼𝘁 𝗜𝗻𝗳𝗼』
 ╠•⪼Speed : ${latensie.toFixed(4)} miliseconds
 ╠•⪼Runtime : ${runtime(process.uptime())}
-╠•⪼Bot Namd : ${global.botname}
+╠•⪼Bot Name : ${global.botname}
 ╠•⪼Owner Name : ${global.ownername}
 ╠•⪼Owner Number : ${global.owner}
 ╠•⪼Platfrom : ${os.platform()}
@@ -4166,7 +4166,10 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 𝗧𝗛𝗔𝗡𝗞𝗦 𝗧𝗢 🙂
 
 ➥Kianganz1
-「https://github.com/Kianganz1」
+➥ModzBotzOfc
+➥Vegairfan
+➥Tegar
+➥Rangga
 
 
 `,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
