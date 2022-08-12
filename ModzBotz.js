@@ -1454,7 +1454,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                 if (!m.isGroup) return replay(`${mess.group}`)
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
-let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝ 
+let teks = ` Tag All 
  
  ➲ *Message : ${q ? q : 'no message'}*\n\n`
                 for (let mem of participants) {
@@ -1798,7 +1798,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '𝙈𝙀𝙉𝙐',
+                                    displayText: 'menu',
                                     id: 'menu'
                                 }
                             }, {
@@ -3341,7 +3341,7 @@ case 'cry':case 'kill':case 'hug':case 'pat':case 'lick':case 'kiss':case 'bite'
 						ModzBotz.sendImageAsSticker(m.chat, data.url, m, { packname: global.packname, author: global.author })
 					})
 					break
-				case 'loli':
+				case 'loli': {
 					reply(mess.wait)
 					axios.get(`https://api.waifu.pics/sfw/waifu`)
 					.then(({data}) => {
@@ -3373,16 +3373,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/bot.jpg')},
                             hydratedFooterText: `
-Hallo 👋 ${pushname}\n
 I'm MODZ BOTZ, This Bot Is Whatsapp Multi-Device Beta
-If there is an error feature, immediately contact the owner so that it will be repaired immediately 🙏\N
-BOT STATUS
-*Speed : ${latensie.toFixed(4)} miliseconds
-*Runtime : ${runtime(process.uptime())}
-*Bot Name : ${global.botname}
-*Owner Name : ${global.ownername}
-*Owner Number : ${global.owner}
-*On Via : Heroku.com
+If there is an error feature, immediately contact the owner so that it will be repaired immediately 🙏
 \n\n`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3393,6 +3385,11 @@ BOT STATUS
                                 quickReplyButton: {
                                     displayText: 'list menu',
                                     id: `${prefix}command1`
+                                }
+                                }, {
+                                quickReplyButton: {
+                                    displayText: 'owner',
+                                    id: `${prefix}owner`
                                 }
                             }]
                         }
@@ -3412,17 +3409,9 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/bot.jpg')}, 
                             hydratedFooterText: `
-Hallo 👋 ${pushname}\n
+Hallo ${pushname}\n
 I'm MODZ BOTZ, This Bot Is Whatsapp Multi-Device Beta
-If there is an error feature, immediately contact the owner so that it will be repaired immediately 🙏\N
-BOT STATUS
-*Speed : ${latensie.toFixed(4)} miliseconds
-*Runtime : ${runtime(process.uptime())}
-*Bot Name : ${global.botname}
-*Owner Name : ${global.ownername}
-*Owner Number : ${global.owner}
-*On Via : Heroku.com
-\n\n`,
+If there is an error feature, immediately contact the owner so that it will be repaired immediately 🙏\n`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'my groub',
@@ -3432,6 +3421,11 @@ BOT STATUS
                                 quickReplyButton: {
                                     displayText: 'list menu',
                                     id: `${prefix}command1`
+                                }
+                                }, {
+                                quickReplyButton: {
+                                    displayText: 'owner',
+                                    id: `${prefix}owner`
                                 }
                             }]
                         }
@@ -3505,7 +3499,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										},
 										{
 											"title": "Horoscope Menu",
-										"rowId": `${prefix}horoscopemenu1``
+										"rowId": `${prefix}horoscopemenu1`
 									}
 								]
 							}
@@ -3514,10 +3508,6 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                 }
             }), {})
             ModzBotz.relayMessage(m.chat, template.message, { messageId: template.key.id })
-            }
-            break
-            case 'kontol': case 'memek': {
-                reply(`Jangan Toxic`)
             }
             break
 case 'allmenu1': {
@@ -3767,9 +3757,10 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 ╠ ${prefix}quoted
 ╠ ${prefix}listpc
 ╠ ${prefix}listgc
+╠ ${prefix}donate
 ╠ ${prefix}report [bug]
 ╚═════════════✪
-`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " wa owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
+`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
 break
 case 'grupmenu1': case 'groupmenu':
 var unicorn = await getBuffer(picak+'Group Menu')
@@ -3796,7 +3787,7 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 ╠${prefix}checkvote
 ╠${prefix}delvote
 ╚═════════════✪
-`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " wa owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
+`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
 break
 case 'funmenu1':
 var unicorn = await getBuffer(picak+'Fun Menu')
@@ -3847,9 +3838,8 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 ╠ ${prefix}math [mode]
 ╠ ${prefix}suitpvp [tag]
 ╚═════════════✪
-`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " wa owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
+`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
 break
-
 case 'ownermenu1':
 var unicorn = await getBuffer(picak+'Owner Menu')
 await ModzBotz.send5ButImg(from, `` + '' + ' ', `
@@ -3875,7 +3865,7 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 ╠${prefix}checkvote
 ╠${prefix}delvote
 ╚═════════════✪
-`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " wa owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
+`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
 break
 case 'downloadmenu1':
 var unicorn = await getBuffer(picak+'Downloader Menu')
@@ -3889,7 +3879,7 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 ╠${prefix}joox [query]
 ╠${prefix}soundcloud [url]
 ╚═════════════✪
-`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " wa owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
+`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
 break
 case 'searchmenu1':
 var unicorn = await getBuffer(picak+'Search Menu')
@@ -3907,7 +3897,7 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 ╠${prefix}ringtone [query]
 ╠${prefix}webtoon [query]
 ╚═════════════✪
-`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " wa owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
+`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
 break
 case 'randommenu1':
 var unicorn = await getBuffer(picak+'Random Menu')
@@ -3951,7 +3941,7 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 ╠${prefix}dance
 ╠${prefix}cringe
 ╚═════════════✪
-`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " wa owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
+`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
 break
 case 'textpromenu1':
 var unicorn = await getBuffer(picak+'Text Pro Menu')
@@ -3989,7 +3979,7 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 ╠ ${prefix}blackpink [txt]
 ╠ ${prefix}gluetext [txt]
 ╚═════════════✪
-`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " wa owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
+`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
 break
 case 'convertmenu1':
 var unicorn = await getBuffer(picak+'Converter Menu')
@@ -4007,7 +3997,7 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 ╠ ${prefix}ebinary [reply txt]
 ╠ ${prefix}dbinary [reply txt]
 ╚═════════════✪
-`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " wa owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
+`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
 break
 case 'databasemenu1':
 var unicorn = await getBuffer(picak+'Database Menu')
@@ -4022,7 +4012,7 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 ╠ ${prefix}getmsg
 ╠ ${prefix}delmsg
 ╚═════════════✪
-`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " wa owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
+`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
 break
 case 'voicechangermenu1':
 var unicorn = await getBuffer(picak+'Voice Changer Menu')
@@ -4040,7 +4030,7 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 ╠${prefix}slow [reply aud]
 ╠${prefix}squirrel [reply aud]
 ╚═════════════✪
-`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " wa owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
+`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
 break
 case 'horoscopemenu1':
 var unicorn = await getBuffer(picak+'Horoscope Menu')
@@ -4077,7 +4067,12 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 ╠${prefix}zodiak (indo)
 ╠${prefix}shio (indo)
 ╚═════════════✪
-`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " wa owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
+`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
+break
+case '𝔂': case '𝓽': case '𝓽':
+var unicorn = await getBuffer(picak+'Developer')
+await ModzBotz.send5ButImg(from, `` + '' + ' ', `
+`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
 break
             default:
                 if (budy.startsWith('=>')) {
