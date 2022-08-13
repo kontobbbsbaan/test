@@ -3442,11 +3442,11 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                 listMessage :{
                     title: `Hi ${pushname}`,
                     description: ` Please select the menu below \n`,
-                    buttonText: "Menu",
+                    buttonText: "Click Here",
                     footerText: `${global.footer}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "LIST MENU MODZ BOTZ ",
+								"title": "LIST MENU 🤖",
 								"rows": [
 									{
 										"title": "Main Menu",
@@ -3518,20 +3518,19 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
             case 'memek': case 'kontol': {
-                reply(`Jangan Toxic Kak`)
+                reply(`Jangan Toxic Kak 🤗`)
             }
             break
 case 'allmenu1': {
   	anu = `
   
-  ALL MENU\nMODZ BOTZ\n
-  BOT STATUS
-*Speed : ${latensie.toFixed(4)} miliseconds
-*Runtime : ${runtime(process.uptime())}
-*Bot Name : ${global.botname}
-*Owner Name : ${global.ownername}
-*Owner Number : ${global.owner}
-*On Via : Heroku.com\n
+  *ALL MENU*\n
+  _BOT STATUS🤓_
+➥💨Speed : ${latensie.toFixed(4)} miliseconds
+➥⏰Runtime : ${runtime(process.uptime())}
+➥🤖Gc bot : https://chat.whatsapp.com/LKmbdt3kuu23VmzRZYyUVF
+
+
 ╔══「 MAIN 」
 ╠ ${prefix}alive
 ╠ ${prefix}speedtest
