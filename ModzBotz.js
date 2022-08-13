@@ -3371,7 +3371,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
-                            locationMessage: {
+                            mediaMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/bot.jpg')},
                             hydratedFooterText: `
 Hallo 👋 ${pushname}\n
@@ -3446,10 +3446,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     footerText: `${global.footer}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "LIST MENU 🤖",
-								"rows": [
-									{
-										"title": "Main Menu",
+								"title": "Main Menu",
 										"rowId": `${prefix}mainmenu1`
 									}, 
 									{
