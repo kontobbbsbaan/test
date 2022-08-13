@@ -1,3 +1,4 @@
+
 require('./settings')
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
 const fs = require('fs')
@@ -202,11 +203,11 @@ module.exports = ModzBotz = async (ModzBotz, m, chatUpdate, store) => {
 	
 	//group target \\
 const reply = (teks) => {
-            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `MODZ BOTZ BY KIAN`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": ""}}}, { quoted: m})
+            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `©2022 By:Kian`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "https://saweria.co/Kianganz"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `MODZ BOTZ BY KIAN`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "ᴍᴏᴅᴢ ʙᴏᴛᴢ ʙʏ ᴋɪᴀɴ"}}}, { quoted: m})
+            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `©2022 By:Kian`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "https://saweria.co/Kianganz"}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -1454,7 +1455,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                 if (!m.isGroup) return replay(`${mess.group}`)
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
-let teks = ` Tag All 
+let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝ 
  
  ➲ *Message : ${q ? q : 'no message'}*\n\n`
                 for (let mem of participants) {
@@ -1798,7 +1799,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'menu',
+                                    displayText: '𝙈𝙀𝙉𝙐',
                                     id: 'menu'
                                 }
                             }, {
@@ -3341,7 +3342,7 @@ case 'cry':case 'kill':case 'hug':case 'pat':case 'lick':case 'kiss':case 'bite'
 						ModzBotz.sendImageAsSticker(m.chat, data.url, m, { packname: global.packname, author: global.author })
 					})
 					break
-				case 'loli': {
+				case 'waiaafu': case 'loli':
 					reply(mess.wait)
 					axios.get(`https://api.waifu.pics/sfw/waifu`)
 					.then(({data}) => {
@@ -3373,6 +3374,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/bot.jpg')},
                             hydratedFooterText: `
+Hallo 👋 ${pushname}\n
 I'm MODZ BOTZ, This Bot Is Whatsapp Multi-Device Beta
 If there is an error feature, immediately contact the owner so that it will be repaired immediately 🙏
 \n\n`,
@@ -3409,9 +3411,10 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/bot.jpg')}, 
                             hydratedFooterText: `
-Hallo ${pushname}\n
+Hallo 👋 ${pushname}\n
 I'm MODZ BOTZ, This Bot Is Whatsapp Multi-Device Beta
-If there is an error feature, immediately contact the owner so that it will be repaired immediately 🙏\n`,
+If there is an error feature, immediately contact the owner so that it will be repaired immediately 🙏
+\n\n`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'my groub',
@@ -3462,35 +3465,35 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"rowId": `${prefix}groupmenu1`
 										},
 									{
-										"title": "Download Menu",
+										"title": "Download",
 										"rowId": `${prefix}downloadmenu1`
 									},
 									{
-										"title": "Search Menu",
+										"title": "Search",
 										"rowId": `${prefix}searchmenu1`
 									},
 									{
-											"title": "Random Menu",
+											"title": "Random",
 										"rowId": `${prefix}randommenu1`
 										},
 										{
-											"title": "Random Anime Menu",
+											"title": "Random Anime",
 										"rowId": `${prefix}randomanimemenu1`
 										},
 										{
-											"title": "Fun Menu",
+											"title": "Fun",
 										"rowId": `${prefix}funmenu1`
 										},
 										{
-											"title": "Convert Menu",
+											"title": "Convert",
 										"rowId": `${prefix}convertmenu1`
 										},
 										{
-											"title": "Database Menu", 
+											"title": "Database", 
 										"rowId": `${prefix}databasemenu1`
 										},
 										{
-											"title": "Voice Changer Menu",
+											"title": "Voice Changer",
 										"rowId": `${prefix}voicechangermenu1`
 										},
 										{
@@ -3498,7 +3501,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"rowId": `${prefix}textpromenu1`
 										},
 										{
-											"title": "Horoscope Menu",
+											"title": "Horoscope",
 										"rowId": `${prefix}horoscopemenu1`
 									}
 								]
@@ -3510,8 +3513,25 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             ModzBotz.relayMessage(m.chat, template.message, { messageId: template.key.id })
             }
             break
+    case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
+                ModzBotz.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/6bd084a9fe20071efed43.png' }, caption: `🙂 DONATE • DONASI\nPULSA:0838-4540-9710\nSAWERIA:https://saweria.co/Kianganz` }, { quoted: m })
+            }
+            break
+            case 'memek': case 'kontol': {
+                reply(`Jangan Toxic Kak`)
+            }
+            break
 case 'allmenu1': {
   	anu = `
+  
+  ALL MENU\nMODZ BOTZ\n
+  BOT STATUS
+*Speed : ${latensie.toFixed(4)} miliseconds
+*Runtime : ${runtime(process.uptime())}
+*Bot Name : ${global.botname}
+*Owner Name : ${global.ownername}
+*Owner Number : ${global.owner}
+*On Via : Heroku.com\n
 ╔══「 MAIN 」
 ╠ ${prefix}alive
 ╠ ${prefix}speedtest
@@ -3523,6 +3543,7 @@ case 'allmenu1': {
 ╠ ${prefix}quoted
 ╠ ${prefix}listpc
 ╠ ${prefix}listgc
+╠ ${prefix}donate
 ╠ ${prefix}report [bug]
 ╠══✪「 OWNER 」 
 ╠ ${prefix}chat [option]
@@ -3762,6 +3783,7 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 ╚═════════════✪
 `,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
 break
+
 case 'grupmenu1': case 'groupmenu':
 var unicorn = await getBuffer(picak+'Group Menu')
 await ModzBotz.send5ButImg(from, `` + '' + ' ', `
@@ -3789,6 +3811,24 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 ╚═════════════✪
 `,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
 break
+
+case 'rpgmenu14':
+var unicorn = await getBuffer(picak+'Rpg Menu')
+await ModzBotz.send5ButImg(from, `` + '' + ' ', `
+╔═✪「 RPG 」	        
+╠${prefix}hunting
+╠${prefix}mining
+╠${prefix}heal
+╠${prefix}limituser
+╠${prefix}profile
+╠${prefix}inventory
+╠${prefix}leaderboard
+╠${prefix}buy [option]
+╠${prefix}sell [option]
+╚═════════════✪
+`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
+break
+
 case 'funmenu1':
 var unicorn = await getBuffer(picak+'Fun Menu')
 await ModzBotz.send5ButImg(from, `` + '' + ' ', `
@@ -3840,6 +3880,7 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 ╚═════════════✪
 `,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
 break
+
 case 'ownermenu1':
 var unicorn = await getBuffer(picak+'Owner Menu')
 await ModzBotz.send5ButImg(from, `` + '' + ' ', `
@@ -4014,6 +4055,25 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 ╚═════════════✪
 `,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
 break
+case 'databasemenu99':
+var unicorn = await getBuffer(picak+'Database Menu')
+await ModzBotz.send5ButImg(from, `` + '' + ' ', `
+╔══✪「 ANONYMOUS CHAT 」	        
+╠${prefix}anonymous
+╠${prefix}start
+╠${prefix}next
+╠${prefix}leave
+╚═════════════✪
+`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
+break
+case 'islamicmenu15':
+var unicorn = await getBuffer(picak+'Islamic Menu')
+await ModzBotz.send5ButImg(from, `` + '' + ' ', `
+╔══✪「 ISLAMIC 」	        
+╠${prefix}juzamma
+╚═════════════✪
+`,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
+break
 case 'voicechangermenu1':
 var unicorn = await getBuffer(picak+'Voice Changer Menu')
 await ModzBotz.send5ButImg(from, `` + '' + ' ', `
@@ -4069,9 +4129,18 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 ╚═════════════✪
 `,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
 break
-case '𝔂': case '𝓽': case '𝓽':
+case 'th4anksto': case 'tqt88o': case 't88qtt':
 var unicorn = await getBuffer(picak+'Developer')
 await ModzBotz.send5ButImg(from, `` + '' + ' ', `
+𝗧𝗛𝗔𝗡𝗞𝗦 𝗧𝗢 🙂
+
+➥Kianganz1
+➥ModzBotzOfc
+➥Vegairfan
+➥Tegar
+➥Rangga
+
+
 `,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
 break
             default:
