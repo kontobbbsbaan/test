@@ -3409,7 +3409,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./GojoMedia/bot.jpg')}, 
+                            jpegThumbnail: fs.readFileSync('./GojoMedia/hengker.jpg')}, 
                             hydratedFooterText: `
 Hallo 👋 ${pushname}\n
 I'm MODZ BOTZ, This Bot Is Whatsapp Multi-Device Beta
@@ -3744,7 +3744,7 @@ case 'allmenu1': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./GojoMedia/bot.jpg')},
+                            jpegThumbnail: fs.readFileSync('./GojoMedia/hengker.jpg')},
                             hydratedFooterText: `${pushname}`,
                             hydratedButtons: [{
                                 urlButton: {
